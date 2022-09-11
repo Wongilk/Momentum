@@ -1,4 +1,6 @@
-const API_KEY = "78eebfcf67aafc84167df4f2cb20ca7f";
+import key from "../Apikey";
+
+const API_KEY = key;
 
 function onSuccess(position) {
   const lat = position.coords.latitude;
